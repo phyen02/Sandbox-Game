@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c577cd17d8bf8e44918d44507b506fb, type: 3}
+  m_Name: SnowLand
+  m_EditorClassIdentifier: 
+  stoneTile: {fileID: 11400000, guid: e17a86844c1047d44ab7c81e4a5adba0, type: 2}
+  grassTile: {fileID: 11400000, guid: e17a86844c1047d44ab7c81e4a5adba0, type: 2}
+  dirtTile: {fileID: 11400000, guid: e17a86844c1047d44ab7c81e4a5adba0, type: 2}
+  tree: {fileID: 0}
+  tallGrass: {fileID: 0}
+  coal: {fileID: 0}
+  iron: {fileID: 0}
+  gold: {fileID: 0}
+  diamond: {fileID: 0}

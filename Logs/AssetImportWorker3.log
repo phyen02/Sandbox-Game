@@ -1,0 +1,827 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16235 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/phamh/Documents/MEGA/Unity/SandBoxGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+57068
+Successfully changed project path to: C:/Users/phamh/Documents/MEGA/Unity/SandBoxGame
+C:/Users/phamh/Documents/MEGA/Unity/SandBoxGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29976] Host "[IP] 26.208.228.8 [Port] 0 [Flags] 2 [Guid] 1101202323 [EditorId] 1101202323 [Version] 1048832 [Id] WindowsEditor(7,Duckins) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29976] Host "[IP] 26.208.228.8 [Port] 0 [Flags] 2 [Guid] 1101202323 [EditorId] 1101202323 [Version] 1048832 [Id] WindowsEditor(7,Duckins) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 15.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/phamh/Documents/MEGA/Unity/SandBoxGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008906 seconds.
+- Loaded All Assemblies, in  0.436 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.284 seconds
+Domain Reload Profiling: 719ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (161ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (285ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (215ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 4.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (385ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (205ms)
+				TypeCache.ScanAssembly (186ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (468ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4177 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (218.6 KB). Loaded Objects now: 4652.
+Memory consumption went from 153.6 MB to 153.4 MB.
+Total: 3.830600 ms (FindLiveObjects: 0.294000 ms CreateObjectMapping: 0.260200 ms MarkObjects: 3.074600 ms  DeleteObjects: 0.201100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 18386.134847 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0002.png
+  artifactKey: Guid(4c561e957e3e3bf48a57ff558959614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0002.png using Guid(4c561e957e3e3bf48a57ff558959614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9364d52aa434dbe7e22bc4c683e4afa') in 0.132971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0022.png
+  artifactKey: Guid(c22c3e2dcae9f6b4abd0b0d75f97dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0022.png using Guid(c22c3e2dcae9f6b4abd0b0d75f97dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62463861e0f08f276286b21ac212ab82') in 0.024914 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0026.png
+  artifactKey: Guid(013945fbe6c31be47b6f8aef3defc982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0026.png using Guid(013945fbe6c31be47b6f8aef3defc982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c68a637aa194991428917bf9cfba53') in 0.030832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0024.png
+  artifactKey: Guid(aec92ca3a925e174aa802854541d891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0024.png using Guid(aec92ca3a925e174aa802854541d891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f006ed2a9ddbd949903b4aa0f266177c') in 0.027896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0023.png
+  artifactKey: Guid(09b66d3ebb5702442a970af5ac372ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Large Spruce Tree/YELLOW/Sprites/Large Spruce Tree - YELLOW - 0023.png using Guid(09b66d3ebb5702442a970af5ac372ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2aacb385a7161463de1818e0e0779ef') in 0.023243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.676865 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0002.png
+  artifactKey: Guid(b62c746fe3b91fc438b06faafb2b9f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0002.png using Guid(b62c746fe3b91fc438b06faafb2b9f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd5cbf2055fa39f37a9d21f281250cd') in 0.023101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0005.png
+  artifactKey: Guid(ae1091c8ee3964d4fa6d8fd3e165386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0005.png using Guid(ae1091c8ee3964d4fa6d8fd3e165386b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7998fc29a41590b1df49ded75d438b') in 0.021471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0009.png
+  artifactKey: Guid(269a082df14f52f4d9620a7a2c7fc02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0009.png using Guid(269a082df14f52f4d9620a7a2c7fc02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f0cdd1a44072d41ef39b94120da66d2') in 0.020018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0012.png
+  artifactKey: Guid(5515200a4ec01e84fbedf23ffa67c9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0012.png using Guid(5515200a4ec01e84fbedf23ffa67c9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e56a4bc7afd7e149f772d7f7f55444') in 0.022360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0017.png
+  artifactKey: Guid(c0161908466327f418242bc198e87247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0017.png using Guid(c0161908466327f418242bc198e87247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd211f9cb028c566079e1df340db17c') in 0.022284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0016.png
+  artifactKey: Guid(923430f708ecadb46befcdcc42ef383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0016.png using Guid(923430f708ecadb46befcdcc42ef383d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e17b5210107813e553eecc52a08683') in 0.020215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0024.png
+  artifactKey: Guid(150ae7f6bc756e24f96b69488575888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0024.png using Guid(150ae7f6bc756e24f96b69488575888f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec7d60f6e0627b4a71c0acb56b937d5') in 0.022603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0028.png
+  artifactKey: Guid(5bac8178d8f35ef42b2d6c4b06cd963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0028.png using Guid(5bac8178d8f35ef42b2d6c4b06cd963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5334d19d2b4ee8d33b2a4d80337730b6') in 0.024697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0029.png
+  artifactKey: Guid(b69f2eb9e14e6a64498ff23aa29c8e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0029.png using Guid(b69f2eb9e14e6a64498ff23aa29c8e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7258f323b732a6fd9d5ce3180dadc603') in 0.025562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0007.png
+  artifactKey: Guid(e7f59db88302fad429db4b2c780618cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Spruce Tree/Sprites/Tiny Spruce Tree/COLD/Sprites/Tiny Spruce Tree - COLD - 0007.png using Guid(e7f59db88302fad429db4b2c780618cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47db28ca8bece9d2975ece58f8e56b23') in 0.026204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 34.972874 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 5 - AZURE - small.PNG
+  artifactKey: Guid(aad884d6b6f44b5498d7cd18b363739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 5 - AZURE - small.PNG using Guid(aad884d6b6f44b5498d7cd18b363739d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10355f39072bf4746d8577b8d440af51') in 0.025281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 7 - AZURE - small.PNG
+  artifactKey: Guid(896f8a7c62e8b0d48a1c595097f747fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 7 - AZURE - small.PNG using Guid(896f8a7c62e8b0d48a1c595097f747fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efec552ea0330b46c9ac304b45b7f435') in 0.021746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 9 - AZURE - BIG.PNG
+  artifactKey: Guid(be86896d9d0f53d43834a84a4bc778eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 9 - AZURE - BIG.PNG using Guid(be86896d9d0f53d43834a84a4bc778eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff455c6ca6e9bd1939d904bd408eaf2') in 0.024097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 11 - AZURE - BIG.PNG
+  artifactKey: Guid(02ed43ab6eba3714e9b3e56e2e484b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 11 - AZURE - BIG.PNG using Guid(02ed43ab6eba3714e9b3e56e2e484b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3485931e0e044655c478376602181e') in 0.026332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 13 - AZURE - BIG.PNG
+  artifactKey: Guid(5792047994578ae4c9201bc7b6d31788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 13 - AZURE - BIG.PNG using Guid(5792047994578ae4c9201bc7b6d31788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acccc900ca3c1bbdf36a777b5798210f') in 0.022595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 15 - AZURE - small.PNG
+  artifactKey: Guid(857ab152e8b5cb74081f8ce4161aa003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 15 - AZURE - small.PNG using Guid(857ab152e8b5cb74081f8ce4161aa003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ec396fc752332e93a591113c50f52d') in 0.027288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 12 - AZURE - BIG.PNG
+  artifactKey: Guid(152ae1b9765dbf541815f8f0ca6ffc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - AZURE -/Rock Pile 12 - AZURE - BIG.PNG using Guid(152ae1b9765dbf541815f8f0ca6ffc68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4028c5b907329860bceb80bc9737ee8a') in 0.031431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.453887 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 2 - BEIGE - BIG.PNG
+  artifactKey: Guid(01477668c6563b84c9f0fc82b33ddb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 2 - BEIGE - BIG.PNG using Guid(01477668c6563b84c9f0fc82b33ddb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccda3b561eef5bfd61f7a21bca1193ac') in 0.024126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 3 - BEIGE - small.PNG
+  artifactKey: Guid(c6352014ca14c0b4fabd9bd459b662d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 3 - BEIGE - small.PNG using Guid(c6352014ca14c0b4fabd9bd459b662d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f80a94e654569adf8e250dede4ccf3') in 0.024219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 5 - BEIGE - BIG.PNG
+  artifactKey: Guid(4037418445d702749a674fabf5706219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 5 - BEIGE - BIG.PNG using Guid(4037418445d702749a674fabf5706219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15de0a4ba5f940ca880658339fe8bca') in 0.028301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 7 - BEIGE - BIG.PNG
+  artifactKey: Guid(50f6782dd5111a347a6a0558f95f06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 7 - BEIGE - BIG.PNG using Guid(50f6782dd5111a347a6a0558f95f06b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5216c1bd5ffa4443b119a1aae3ad60d') in 0.022219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 9 - BEIGE - small.PNG
+  artifactKey: Guid(4a14e7cb80cca09459f560e7e13d0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 9 - BEIGE - small.PNG using Guid(4a14e7cb80cca09459f560e7e13d0f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dead8eb678ab3e963899c991ccfcd104') in 0.019578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 6 - BEIGE - small.PNG
+  artifactKey: Guid(38d40a8ef40e9054e8c34b53affe2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 6 - BEIGE - small.PNG using Guid(38d40a8ef40e9054e8c34b53affe2dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae20138e99731eefd0efcb465c99f68') in 0.025953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 13 - BEIGE - BIG.PNG
+  artifactKey: Guid(018b55e3e8f663d4abf9a9a7b6872527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 13 - BEIGE - BIG.PNG using Guid(018b55e3e8f663d4abf9a9a7b6872527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77c9d460cbfed01c717fe6a5fddb75a') in 0.026175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 15 - BEIGE - small.PNG
+  artifactKey: Guid(2a3c667950bd3584c9385d91d58b1c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 15 - BEIGE - small.PNG using Guid(2a3c667950bd3584c9385d91d58b1c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1a67423e8cebee78a64ec94dd1238d') in 0.028608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 11 - BEIGE - BIG.PNG
+  artifactKey: Guid(e96a5c7f3e8a31646aa5132a0b697c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 11 - BEIGE - BIG.PNG using Guid(e96a5c7f3e8a31646aa5132a0b697c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05305d933ed9681eda569f84da37810') in 0.029317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 9 - BEIGE - BIG.PNG
+  artifactKey: Guid(a55834acb76cbfe4d8d91a714a3c2586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - BEIGE -/Rock Pile 9 - BEIGE - BIG.PNG using Guid(a55834acb76cbfe4d8d91a714a3c2586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a7644b878b8e3825bdee356db07c64') in 0.025769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.608823 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 2 - MOSSY - BIG.PNG
+  artifactKey: Guid(54e1669034061844a96137fc71456f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 2 - MOSSY - BIG.PNG using Guid(54e1669034061844a96137fc71456f6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d4ff2e0a0cbde17b9984fe61e0bd05') in 0.023080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 3 - MOSSY - small.PNG
+  artifactKey: Guid(f1e1af4ee34c69d43b8ea28747a78df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 3 - MOSSY - small.PNG using Guid(f1e1af4ee34c69d43b8ea28747a78df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9015c6459541f57243327f688726b4') in 0.021663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 5 - MOSSY - BIG.PNG
+  artifactKey: Guid(250d9fb645a73344da8c0fef0ccf945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 5 - MOSSY - BIG.PNG using Guid(250d9fb645a73344da8c0fef0ccf945a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5052ebb73f86d192a572e09426e056') in 0.024841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 6 - MOSSY - small.PNG
+  artifactKey: Guid(22e3584d99a50024e823d962a48f8f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 6 - MOSSY - small.PNG using Guid(22e3584d99a50024e823d962a48f8f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ddb272bca694f8f932ddb0c608761c3') in 0.023483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 7 - MOSSY - BIG.PNG
+  artifactKey: Guid(2150c6f223c8e3944bbe2e50c3857b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 7 - MOSSY - BIG.PNG using Guid(2150c6f223c8e3944bbe2e50c3857b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26d90ece190eedab10e03d8ad3457d3') in 0.020868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 9 - MOSSY - small.PNG
+  artifactKey: Guid(b8673ef36b847834a91f05af5c60da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 9 - MOSSY - small.PNG using Guid(b8673ef36b847834a91f05af5c60da5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdd81c11119451887d0d9a6d3a3e45d') in 0.020096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 11 - MOSSY - BIG.PNG
+  artifactKey: Guid(f97e24b2a1e35da459140924e50471f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 11 - MOSSY - BIG.PNG using Guid(f97e24b2a1e35da459140924e50471f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969888a430e2b015a92553c8c35c23b6') in 0.017635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 12 - MOSSY - small.PNG
+  artifactKey: Guid(46c205b4dfca76d45866fd882b236607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 12 - MOSSY - small.PNG using Guid(46c205b4dfca76d45866fd882b236607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6d393a7767dd49bdc3aa79d5ea39b8') in 0.020557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 14 - MOSSY - BIG.PNG
+  artifactKey: Guid(12e70f843b0e0934aaf074fc57f8eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 14 - MOSSY - BIG.PNG using Guid(12e70f843b0e0934aaf074fc57f8eaff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2436c2d561819d2701e6cabecb64bda') in 0.024950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 13 - MOSSY - BIG.PNG
+  artifactKey: Guid(c8f5381630a3c7a42a29feb83fb191ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - MOSSY -/Rock Pile 13 - MOSSY - BIG.PNG using Guid(c8f5381630a3c7a42a29feb83fb191ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d0f27c575e5ad206e732d0a7bc1c8e') in 0.026423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.227110 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 2 - ORANGE - BIG.PNG
+  artifactKey: Guid(adf161862f85b5a40850a5cf724c258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 2 - ORANGE - BIG.PNG using Guid(adf161862f85b5a40850a5cf724c258d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a40a6f2637c7a76a919f3e8fdf92e4') in 0.021404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 3 - ORANGE - small.PNG
+  artifactKey: Guid(3408701b316a40c4b8955ff42a23375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 3 - ORANGE - small.PNG using Guid(3408701b316a40c4b8955ff42a23375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c691da822700108902afa675dddbf009') in 0.019254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 4 - ORANGE - small.PNG
+  artifactKey: Guid(f5dfc322b857eb04ab0737669a1addb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 4 - ORANGE - small.PNG using Guid(f5dfc322b857eb04ab0737669a1addb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7973710a046bd49c04a098e5c4fc32') in 0.019013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 7 - ORANGE - BIG.PNG
+  artifactKey: Guid(8a44bdd11bf392d40988ca06aae23f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 7 - ORANGE - BIG.PNG using Guid(8a44bdd11bf392d40988ca06aae23f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cbb854054c853ad52ff67779d27c42') in 0.021319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 6 - ORANGE - small.PNG
+  artifactKey: Guid(195ad475c37dc8d4eadb8152ca8a2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 6 - ORANGE - small.PNG using Guid(195ad475c37dc8d4eadb8152ca8a2d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de72c21d9b2f81cb442ebaa4ddd4b3f9') in 0.021870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 10 - ORANGE - BIG.PNG
+  artifactKey: Guid(50685140e1717ec48a98088cb57f311d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 10 - ORANGE - BIG.PNG using Guid(50685140e1717ec48a98088cb57f311d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c546ca86db26548c7372da4fbecebab1') in 0.023776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 12 - ORANGE - small.PNG
+  artifactKey: Guid(8e42c69bbddf69041adbc7ae83dcf96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 12 - ORANGE - small.PNG using Guid(8e42c69bbddf69041adbc7ae83dcf96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed166c08d301bb693f112cfa6bedaf1') in 0.022246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 14 - ORANGE - BIG.PNG
+  artifactKey: Guid(3a619240a036297499e069562d6b6231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 14 - ORANGE - BIG.PNG using Guid(3a619240a036297499e069562d6b6231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266ff43ccc3693574b1a7d780eabd324') in 0.024437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 15 - ORANGE - small.PNG
+  artifactKey: Guid(46c42babc5ce0ad409950cba555f1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 15 - ORANGE - small.PNG using Guid(46c42babc5ce0ad409950cba555f1515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6d6413fe8a68743249afa848b94394') in 0.026739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 12 - ORANGE - BIG.PNG
+  artifactKey: Guid(ed6a98addcb60594f8a263b4d6413147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - ORANGE -/Rock Pile 12 - ORANGE - BIG.PNG using Guid(ed6a98addcb60594f8a263b4d6413147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accf87e003d7c4fbbef5b8455ce0dfc9') in 0.025195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.985398 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 2 - SILVER - BIG.PNG
+  artifactKey: Guid(8c2862558c8eeb44eb2bb022b0dd5de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 2 - SILVER - BIG.PNG using Guid(8c2862558c8eeb44eb2bb022b0dd5de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda795226f77e8ef269a5b421e757157') in 0.023430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 3 - SILVER - small.PNG
+  artifactKey: Guid(28c3f44b28677fd4c85178f0e94f444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 3 - SILVER - small.PNG using Guid(28c3f44b28677fd4c85178f0e94f444d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717f2b9ce02b81c8420a1983c4b53c32') in 0.020123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 5 - SILVER - BIG.PNG
+  artifactKey: Guid(210516c7a1d43a047af34755b4488fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 5 - SILVER - BIG.PNG using Guid(210516c7a1d43a047af34755b4488fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0acf08fb5281792b1719bd9ccadc1c4') in 0.018542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 7 - SILVER - BIG.PNG
+  artifactKey: Guid(f8aec26ef9e664649847d51b85819f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 7 - SILVER - BIG.PNG using Guid(f8aec26ef9e664649847d51b85819f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9311e2a16e87e36174fca0191ac26e61') in 0.019758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 9 - SILVER - BIG.PNG
+  artifactKey: Guid(7504dc3825bafd248993777ee8326aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 9 - SILVER - BIG.PNG using Guid(7504dc3825bafd248993777ee8326aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02254a904ee3ca45f2bd20706ff9cbaa') in 0.019705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 10 - SILVER - BIG.PNG
+  artifactKey: Guid(ca6bea46b2872734596775c66f545f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 10 - SILVER - BIG.PNG using Guid(ca6bea46b2872734596775c66f545f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2e5b66323e0117578cada56768ed54') in 0.020862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 12 - SILVER - small.PNG
+  artifactKey: Guid(4c23a9e314507834f94b50c0a7b81277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 12 - SILVER - small.PNG using Guid(4c23a9e314507834f94b50c0a7b81277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70121a3b5621bdb1f74df516a99cfc66') in 0.022047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 14 - SILVER - BIG.PNG
+  artifactKey: Guid(b3ca7cceee89a694788d6baa2f93da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 14 - SILVER - BIG.PNG using Guid(b3ca7cceee89a694788d6baa2f93da6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c664f20486c5c6bca0655c71ad23af78') in 0.022556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 15 - SILVER - BIG.PNG
+  artifactKey: Guid(789bd87083ad8a44f85d2a31fb547a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 15 - SILVER - BIG.PNG using Guid(789bd87083ad8a44f85d2a31fb547a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd17284a40607f3e8206d2e8505d170cb') in 0.025498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 9 - SILVER - small.PNG
+  artifactKey: Guid(0624a00befdd05e46b4b46c1ab00f45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - SILVER -/Rock Pile 9 - SILVER - small.PNG using Guid(0624a00befdd05e46b4b46c1ab00f45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9064dd24642309deb3949248cf37204') in 0.024282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.197700 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 2 - WHITE - BIG.PNG
+  artifactKey: Guid(4c819ed9a5f0d1849b27f705b51dac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 2 - WHITE - BIG.PNG using Guid(4c819ed9a5f0d1849b27f705b51dac06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2b4f192ff84a91b7c9d461f5c96b1c') in 0.020522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 3 - WHITE - small.PNG
+  artifactKey: Guid(5095b93034e867c4ca1f3c1c87e36a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 3 - WHITE - small.PNG using Guid(5095b93034e867c4ca1f3c1c87e36a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d91bc17d64b125b43940e305a8bb61') in 0.020088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 4 - WHITE - BIG.PNG
+  artifactKey: Guid(db2b34c3e6de4b04997c5a784bf08a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 4 - WHITE - BIG.PNG using Guid(db2b34c3e6de4b04997c5a784bf08a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '054ea6dc6a2f5083394c48793c1f21f6') in 0.020674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 7 - WHITE - BIG.PNG
+  artifactKey: Guid(e85a0a0918a3c144fb852086799e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 7 - WHITE - BIG.PNG using Guid(e85a0a0918a3c144fb852086799e5a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238bbea5b71f5942421edb877fab65b6') in 0.021215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 7 - WHITE - small.PNG
+  artifactKey: Guid(14b650ea6ffd2404bba30675038546ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 7 - WHITE - small.PNG using Guid(14b650ea6ffd2404bba30675038546ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc4485e20f3dfe91c7d3550076ffa5c') in 0.021674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 10 - WHITE - BIG.PNG
+  artifactKey: Guid(08440ceb8d56da242bf9123b31929c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 10 - WHITE - BIG.PNG using Guid(08440ceb8d56da242bf9123b31929c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f530d1aad323f0f4c4f7541dcb78d73a') in 0.022341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 12 - WHITE - small.PNG
+  artifactKey: Guid(b5cdeffbe1815cb498d01b4ae7cb56d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 12 - WHITE - small.PNG using Guid(b5cdeffbe1815cb498d01b4ae7cb56d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1c7c7465f72050d8d53d3a231bef91') in 0.021269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 13 - WHITE - small.PNG
+  artifactKey: Guid(b06aef5a1486abe4f8d04356e5ef3284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 13 - WHITE - small.PNG using Guid(b06aef5a1486abe4f8d04356e5ef3284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fc2ca8bb616a8a4a80a0c367158b31') in 0.023491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 15 - WHITE - small.PNG
+  artifactKey: Guid(6ed062ab5287a344793e2ea16cff7e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 15 - WHITE - small.PNG using Guid(6ed062ab5287a344793e2ea16cff7e8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3314794912db3e682381243d65396f07') in 0.024807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 11 - WHITE - BIG.PNG
+  artifactKey: Guid(0a57ba8850e799c4d8f7f1eca7dc5b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Decorations/Rock Pile/Rock Pile - WHITE -/Rock Pile 11 - WHITE - BIG.PNG using Guid(0a57ba8850e799c4d8f7f1eca7dc5b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0b5eef218a25102826d848d2ca19d5') in 0.025486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.872 seconds
+Refreshing native plugins compatible for Editor in 8.16 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.918 seconds
+Domain Reload Profiling: 2786ms
+	BeginReloadAssembly (294ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (452ms)
+		LoadAssemblies (549ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (53ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (4ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1919ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (580ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (431ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 7.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4158 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (218.1 KB). Loaded Objects now: 4708.
+Memory consumption went from 153.4 MB to 153.2 MB.
+Total: 5.096000 ms (FindLiveObjects: 0.791400 ms CreateObjectMapping: 0.528100 ms MarkObjects: 3.547700 ms  DeleteObjects: 0.227600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

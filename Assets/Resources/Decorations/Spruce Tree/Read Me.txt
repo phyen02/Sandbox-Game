@@ -1,0 +1,38 @@
+
+
+Every Tree is ANIMATED!
+
+Colors for each tree - Yellow, Green, Green/Teal, Teal, Cold, Night
+
+
+Tree Types:
+
+Triangle Spruce Tree
+ - Size: 45x76
+ 
+Tiny Spruce Tree
+ - Size: 38x68
+ 
+Thick Spruce Tree
+ - Size: 64x104
+ 
+Spruce Trees
+ - Size: 51x87
+ 
+Small Pine Tree
+ - Size: 51x85
+ 
+Slim Spruce Tree
+ - Size: 48x92
+
+Pine Trees
+ - Size: 52x96
+ 
+Pico Pine Tree
+ - Size: 31x52
+ 
+Large Spruce Tree
+ - Size: 74x128
+ 
+Bubble Pine Tree
+ - Size: 51x91
