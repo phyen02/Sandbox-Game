@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c577cd17d8bf8e44918d44507b506fb, type: 3}
   m_Name: DesertLand
   m_EditorClassIdentifier: 
-  stoneTile: {fileID: 11400000, guid: 29066d2dcab7fc548810d0c541278e1d, type: 2}
+  stoneTile: {fileID: 11400000, guid: 2f1096c628fa9f24aba52faeb3703ca4, type: 2}
   grassTile: {fileID: 11400000, guid: 2f1096c628fa9f24aba52faeb3703ca4, type: 2}
   dirtTile: {fileID: 11400000, guid: 2f1096c628fa9f24aba52faeb3703ca4, type: 2}
   tree: {fileID: 0}

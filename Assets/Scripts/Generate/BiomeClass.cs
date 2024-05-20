@@ -9,8 +9,6 @@ public class BiomeClass
     public TileAtlas tileAtlas;
 
     [Header("Noise Setting")]
-    public float caveFreq = 0.08f;
-    public float terrainFreq = 0.04f;
     public Texture2D caveNoiseTexture;
 
     [Header("Generation Settings")]
@@ -18,6 +16,7 @@ public class BiomeClass
     public float surfaceValue = 0.25f;
     public int dirtLayerHeight = 5;
     public float heightMultiplier = 4f;
+
 
     [Header("Tree")]
     public int treeSpawnChance = 10;
