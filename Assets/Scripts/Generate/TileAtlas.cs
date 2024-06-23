@@ -6,11 +6,13 @@ using UnityEngine;
 public class TileAtlas : ScriptableObject
 {
     [Header("Environment")]
-    public TileClass stoneTile;
     public TileClass grassTile;
     public TileClass dirtTile;
+    public TileClass stoneTile;
     public TileClass tree;
     public TileClass tallGrass;
+    public TileClass bedrock;
+    
 
     [Header("Ores")]
     public TileClass coal;

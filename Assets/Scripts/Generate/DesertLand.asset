@@ -16,7 +16,7 @@ MonoBehaviour:
   grassTile: {fileID: 11400000, guid: 2f1096c628fa9f24aba52faeb3703ca4, type: 2}
   dirtTile: {fileID: 11400000, guid: 2f1096c628fa9f24aba52faeb3703ca4, type: 2}
   tree: {fileID: 0}
-  tallGrass: {fileID: 0}
+  tallGrass: {fileID: 11400000, guid: b92fb16047ac4994cb69c521a39071a1, type: 2}
   coal: {fileID: 0}
   iron: {fileID: 0}
   gold: {fileID: 0}

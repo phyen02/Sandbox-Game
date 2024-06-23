@@ -13,8 +13,14 @@ MonoBehaviour:
   m_Name: Tile-Dirt
   m_EditorClassIdentifier: 
   tileName: Dirt
+  wallVariant: {fileID: 0}
   tileSprites:
   - {fileID: -164320419, guid: 3a6f603276eca1e4dab29831a1cfd471, type: 3}
   - {fileID: 367300504, guid: 3a6f603276eca1e4dab29831a1cfd471, type: 3}
   - {fileID: -1099932193, guid: 3a6f603276eca1e4dab29831a1cfd471, type: 3}
   - {fileID: 1494160136, guid: 3a6f603276eca1e4dab29831a1cfd471, type: 3}
+  isBgElement: 0
+  naturallyPlaced: 0
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  isStackable: 0

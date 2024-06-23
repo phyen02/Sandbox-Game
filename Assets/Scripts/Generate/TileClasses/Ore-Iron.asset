@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Ore-Iron
   m_EditorClassIdentifier: 
   tileName: Iron
+  wallVariant: {fileID: 0}
   tileSprites:
-  - {fileID: 21300000, guid: bf230f93632481141a384510c5ce9844, type: 3}
+  - {fileID: 21300000, guid: e504bf3779bda9c40ba6d311e0611951, type: 3}
+  isBgElement: 0
+  naturallyPlaced: 1
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  isStackable: 0

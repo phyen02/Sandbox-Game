@@ -59,69 +59,13 @@
     <UnityVersion>2022.3.29f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\phamh\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\phamh\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.2\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.29f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.29f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\SerializeReferenceDropdown.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\TitleHeaderAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\LucidEditorGUI.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\EditorColors.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\IndentAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\DisableIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\BoxGroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Extensions\EnumExtensions.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\GUIColorAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\ValidateInputAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\ReadOnlyAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Experimental\SimpleTreeView.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\OnValueChangedAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\EditorIcons.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\HorizontalGroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\SerializedPropertyUtility.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\DisableInEditModeAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\PropertyGroupProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\PropertyOrderAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\InspectorProperty\EditableInspectorProperty.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Experimental\TreeMenu.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\InspectorProperty\NonSerializedProperty.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\LucidEditorGUILayout.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\EnableIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorField.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\AssetsOnlyAttributeProcessor.cs" />
     <Compile Include="Assets\Scripts\Editor\ChestEditor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Experimental\TextFieldPopup.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Extensions\SerializedPropertyExtensions.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorProperty.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\DisableInPlayModeAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorButton.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\BlockquoteAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Utils\ProcessorUtil.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\HorizontalLineAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\LucidEditorUtility.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\LabelTextAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\PropertyProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\HideLabelAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\LucidEditor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\HelpBoxAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\TabGroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\GroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\LucidGUIEvent.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\LucidEditorPrefs.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\SectionHeaderAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Utils\InspectorPropertyUtil.cs" />
     <Compile Include="Assets\Scripts\Editor\ElevatorEditor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\FoldoutGroupAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\InspectorProperty\InspectorPropertyGroup.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Experimental\Toolbar.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\RequiredAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\HelpBoxIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\LabelWidthAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\ShowIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Attributes\HideIfAttributeProcessor.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Utils\TypeUtil.cs" />
-    <Compile Include="Assets\Resources\Third Party\Lucid Editor\Editor\Utils\ReflectionUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1008,20 +952,100 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Burst.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Burst">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.Common.Path.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PPv2URPConverters">
+      <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
@@ -1030,6 +1054,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
@@ -1056,24 +1084,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Aseprite.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow.Editor">
@@ -1084,20 +1096,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Mathematics.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.2D.Common.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline">
@@ -1108,28 +1112,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.2D.Psdimporter.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.SpriteShape.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.2D.PixelPerfect">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics">
@@ -1140,16 +1132,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Aseprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">

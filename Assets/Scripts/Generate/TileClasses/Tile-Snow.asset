@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Tile-Snow
   m_EditorClassIdentifier: 
   tileName: Snow
+  wallVariant: {fileID: 11400000, guid: d70fbdb5228e00f4a845ae92f534367e, type: 2}
   tileSprites:
   - {fileID: 546924855, guid: 451424bfbb36c5949afbb1159cf4ff3f, type: 3}
   - {fileID: -1644702456, guid: 451424bfbb36c5949afbb1159cf4ff3f, type: 3}
+  isBgElement: 0
+  naturallyPlaced: 0
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  isStackable: 0

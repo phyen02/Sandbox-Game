@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Tile-Sand
   m_EditorClassIdentifier: 
   tileName: Sand
+  wallVariant: {fileID: 11400000, guid: 26f1feb02c716b547ab6a6965fa4e0ba, type: 2}
   tileSprites:
   - {fileID: -139785215, guid: e990060b32882e647b77e3418ea7303d, type: 3}
   - {fileID: -256443485, guid: 89019aadbdd48be498ac257274b8882e, type: 3}
+  isBgElement: 0
+  naturallyPlaced: 0
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  isStackable: 0

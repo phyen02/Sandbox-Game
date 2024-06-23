@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Tile-Forest
   m_EditorClassIdentifier: 
   tileName: Forest
+  wallVariant: {fileID: 11400000, guid: c7e595c30e004524da71c372dfe99d85, type: 2}
   tileSprites:
   - {fileID: 378772308, guid: b425613db706e0a49821a35253ec9db1, type: 3}
   - {fileID: -1765720901, guid: b425613db706e0a49821a35253ec9db1, type: 3}
@@ -20,3 +21,8 @@ MonoBehaviour:
   - {fileID: -1471490548, guid: b425613db706e0a49821a35253ec9db1, type: 3}
   - {fileID: -1984377226, guid: b425613db706e0a49821a35253ec9db1, type: 3}
   - {fileID: -1021586517, guid: b425613db706e0a49821a35253ec9db1, type: 3}
+  isBgElement: 0
+  naturallyPlaced: 0
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  isStackable: 0

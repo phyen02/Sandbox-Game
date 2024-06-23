@@ -13,5 +13,11 @@ MonoBehaviour:
   m_Name: Ore-Diamond
   m_EditorClassIdentifier: 
   tileName: Diamond
+  wallVariant: {fileID: 0}
   tileSprites:
-  - {fileID: 21300000, guid: c4fcf5de2ef1fc64bb853f4befb9e0fe, type: 3}
+  - {fileID: 21300000, guid: 3faa68d4e2f05f04786133598667ac36, type: 3}
+  isBgElement: 0
+  naturallyPlaced: 1
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  isStackable: 0

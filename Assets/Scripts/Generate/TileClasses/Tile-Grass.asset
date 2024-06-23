@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Tile-Grass
   m_EditorClassIdentifier: 
   tileName: Grass
+  wallVariant: {fileID: 0}
   tileSprites:
   - {fileID: 2020574313, guid: 66453c654294d2045aa5eb98e5ea9f7d, type: 3}
   - {fileID: 1165701827, guid: 66453c654294d2045aa5eb98e5ea9f7d, type: 3}
@@ -20,3 +21,8 @@ MonoBehaviour:
   - {fileID: -1070741665, guid: 66453c654294d2045aa5eb98e5ea9f7d, type: 3}
   - {fileID: -1710635589, guid: 66453c654294d2045aa5eb98e5ea9f7d, type: 3}
   - {fileID: 1805369842, guid: 66453c654294d2045aa5eb98e5ea9f7d, type: 3}
+  isBgElement: 0
+  naturallyPlaced: 0
+  tileDrop: {fileID: 11400000}
+  toolToBreak: 1
+  isStackable: 0
